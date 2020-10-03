@@ -1,0 +1,7 @@
+# This file is not used by default.
+# This file is just an example.
+# locale in config.yml must be set to 'user' if you going to use this file.
+# If the some keys are not defined in this file, the english locale will be used as fallback.
+name: "English"
+noPermission: "&cYou don't have permission to do that."
+startingIn: "&eGame starting in &c%d&e seconds"
