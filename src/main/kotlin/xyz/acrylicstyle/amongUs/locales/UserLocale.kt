@@ -3,7 +3,7 @@ package xyz.acrylicstyle.amongUs.locales
 import org.bukkit.ChatColor
 import xyz.acrylicstyle.tomeito_api.providers.ConfigProvider
 
-class UserLocale: Locale("user") {
+object UserLocale: Locale("user") {
     private val config = ConfigProvider("./plugins/AmongUs/messages.yml")
 
     override val name: String = color(config.getString("name"))
